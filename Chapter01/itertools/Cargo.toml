@@ -1,0 +1,7 @@
+[package]
+name = "itertools"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+itertools = "0.7.6"

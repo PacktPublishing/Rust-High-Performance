@@ -1,0 +1,10 @@
+[package]
+name = "example8"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+phf = "0.7.21"
+
+[build-dependencies]
+phf_codegen = "0.7.21"
