@@ -1,0 +1,11 @@
+[package]
+name = "type-name-derive"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+quote = "0.4.2"
+syn = "0.12.13"
+
+[lib]
+proc-macro = true

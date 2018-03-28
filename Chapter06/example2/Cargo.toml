@@ -1,0 +1,16 @@
+[package]
+name = "example2"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[lib]
+name = "test_bench"
+path = "src/lib.rs"
+bench = false
+
+[[bench]]
+name = "example"
+harness = false
+
+[dev-dependencies]
+bencher = "0.1.4"

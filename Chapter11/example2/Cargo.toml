@@ -1,0 +1,8 @@
+[package]
+name = "example2"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+futures = "0.1"
+futures-timer = "0.1"

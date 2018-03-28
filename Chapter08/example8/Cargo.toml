@@ -1,0 +1,8 @@
+[package]
+name = "example8"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+log = "0.4.1"
+env_logger = "0.5.3"

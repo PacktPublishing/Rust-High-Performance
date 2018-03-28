@@ -1,0 +1,9 @@
+[package]
+name = "example5"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+futures = "0.1.18"
+tokio-core = "0.1.15"
+websocket = "0.20.2"

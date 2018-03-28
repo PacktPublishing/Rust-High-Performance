@@ -1,0 +1,8 @@
+[package]
+name = "example12"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+rocket = "0.3.6"
+rocket_codegen = "0.3.6"

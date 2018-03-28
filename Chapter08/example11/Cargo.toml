@@ -1,0 +1,17 @@
+[package]
+name = "example11"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+dotenv = "0.10.1"
+
+[dependencies.diesel]
+version = "1.1.1"
+default-features = false
+features = ["sqlite"]
+
+[dependencies.diesel_infer_schema]
+version = "1.1.0"
+default-features = false
+features = ["sqlite"]

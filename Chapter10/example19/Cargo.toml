@@ -1,0 +1,8 @@
+[package]
+name = "example19"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+threadpool = "1.7.1"
+num_cpus = "1.8.0"

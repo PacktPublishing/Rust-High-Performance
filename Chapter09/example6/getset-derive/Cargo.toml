@@ -1,0 +1,11 @@
+[package]
+name = "getset-derive"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+syn = "0.12.13"
+quote = "0.4.2"
+
+[lib]
+proc-macro = true

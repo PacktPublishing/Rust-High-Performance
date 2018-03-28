@@ -1,0 +1,40 @@
+[[package]]
+name = "example10"
+version = "0.1.0"
+dependencies = [
+ "maud 0.17.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "literalext"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "maud"
+version = "0.17.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "maud_htmlescape 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "maud_macros 0.17.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "maud_htmlescape"
+version = "0.17.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "maud_macros"
+version = "0.17.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "literalext 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "maud_htmlescape 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[metadata]
+"checksum literalext 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "2f42dd699527975a1e0d722e0707998671188a0125f2051d2d192fc201184a81"
+"checksum maud 0.17.2 (registry+https://github.com/rust-lang/crates.io-index)" = "c0023c814f4a545946ab612ad64a4edce8126d4fe4f0abc5f319b80877112048"
+"checksum maud_htmlescape 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d0fb85bccffc42302ad1e1ed8679f6a39d1317f775a37fbc3f79bdfbe054bfb7"
+"checksum maud_macros 0.17.2 (registry+https://github.com/rust-lang/crates.io-index)" = "0d8377d77c1995044b8ad67a59d15b434c8b7de470ac743de4916ee2bd9fce55"

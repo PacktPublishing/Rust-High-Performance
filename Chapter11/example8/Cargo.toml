@@ -1,0 +1,7 @@
+[package]
+name = "example8"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+futures-await = "0.2.0-alpha"

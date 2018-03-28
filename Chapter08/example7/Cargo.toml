@@ -1,0 +1,7 @@
+[package]
+name = "example7"
+version = "0.1.0"
+authors = ["Razican <razican@protonmail.ch>"]
+
+[dependencies]
+failure = "0.1.1"
